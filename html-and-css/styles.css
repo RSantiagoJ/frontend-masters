@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: orange;
+}
+h1 {
+  color: blue;
+}
+ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+li {
+  color: seagreen;
+}
+
+.branding {
+  color: cyan;
+}
+
+.label {
+  color: teal;
+}
+
+.date {
+  font-size: 18px;
+  color: red;
+  font-weight: bold;
+}

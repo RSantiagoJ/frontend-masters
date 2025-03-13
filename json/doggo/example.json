@@ -1,0 +1,9 @@
+{
+  "name": "Luna",
+  "age": 10,
+  "breed": "Terrier",
+  "location": {
+    "city": "Seattle",
+    "state": "Washington"
+  }
+}
