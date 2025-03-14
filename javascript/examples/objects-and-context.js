@@ -1,3 +1,12 @@
+const person2 = {
+  name: "Alice",
+  greet: function () {
+    console.log(this.name); // 'this' refers to the `person` object
+  },
+};
+
+person2.greet(); // Logs: 'Alice'
+
 const sentence = "ThiS Is A ";
 let string = "my name is brian";
 let subString = string.substring(14, 15); // Use substring, not subString

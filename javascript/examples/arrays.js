@@ -18,7 +18,11 @@ for (let i = 0; i < daysOfTheWeek.length; i++) {
 for (let i = 0; i < daysOfTheWeek.length; i++) {
   console.log(daysOfTheWeek[i], i);
 }
-// method 2
+
+// method 2// this is a call back function
+function logDay(day) {
+  console.log(day);
+}
 
 console.log("-----------------");
 daysOfTheWeek.forEach(logDay);
@@ -26,10 +30,6 @@ daysOfTheWeek.forEach(logDay);
 daysOfTheWeek.forEach(function (day) {
   console.log(day);
 });
-// this is a call back function
-function logDay(day) {
-  console.log(day);
-}
 
 console.log("-----------------");
 console.log(daysOfTheWeek[0]);
